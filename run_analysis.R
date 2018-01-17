@@ -39,7 +39,6 @@ run_analysis <- function(){
 
 # 4. Appropriately labels the data set with descriptive variable names######################################
         updatednames <- names(filtereddata)
-        write.table(filtereddata, file="filtereddata.txt", row.name=FALSE)
         updatednames<-gsub("Acc", " acceleration", updatednames)
         updatednames<-gsub("Mag", " Magnitude", updatednames)
         updatednames<-gsub("BodyBody", "Body", updatednames)

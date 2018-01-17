@@ -27,8 +27,7 @@ run_analysis <- function(){
         alldata<-rbind(traindata, testdata)
 
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement ################
-        
-        meanstdevlabels<-grepl("subject|activity|mean|std", features) & !grepl("meanFreq", features)
+        meanstdevlabels<-grepl("subject|activity|mean|std", colnamelist) & !grepl("meanFreq", colnamelist)
         filtereddata = alldata[, meanstdevlabels]
 
 # 3. Uses descriptive activity names to name the activities in the data set ################################
@@ -49,6 +48,7 @@ run_analysis <- function(){
         updatednames<-gsub("std", "standard deviation ", updatednames)
         updatednames<-gsub("bodybodygyroscope", "body gyroscope", updatednames)
         updatednames<-gsub("-", " ", updatednames)
+        updatednames<-gsub("()", "", updatednames)
         updatednames<-tolower(updatednames)
         names(filtereddata)<-updatednames
         

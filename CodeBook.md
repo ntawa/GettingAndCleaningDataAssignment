@@ -58,3 +58,71 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 ## Adjustments
+| Raw data field name         | Updated field name                                               |
+|-----------------------------|------------------------------------------------------------------|
+| tBodyAcc-mean()-X           | body acceleration mean() x time                                  |
+| tBodyAcc-mean()-Y           | body acceleration mean() y time                                  |
+| tBodyAcc-mean()-Z           | body acceleration mean() z time                                  |
+| tBodyAcc-std()-X            | body acceleration standard deviation () x time                   |
+| tBodyAcc-std()-Y            | body acceleration standard deviation () y time                   |
+| tBodyAcc-std()-Z            | body acceleration standard deviation () z time                   |
+| tGravityAcc-mean()-X        | gravity acceleration mean() x time                               |
+| tGravityAcc-mean()-Y        | gravity acceleration mean() y time                               |
+| tGravityAcc-mean()-Z        | gravity acceleration mean() z time                               |
+| tGravityAcc-std()-X         | gravity acceleration standard deviation () x time                |
+| tGravityAcc-std()-Y         | gravity acceleration standard deviation () y time                |
+| tGravityAcc-std()-Z         | gravity acceleration standard deviation () z time                |
+| tBodyAccJerk-mean()-X       | body acceleration jerk mean() x time                             |
+| tBodyAccJerk-mean()-Y       | body acceleration jerk mean() y time                             |
+| tBodyAccJerk-mean()-Z       | body acceleration jerk mean() z time                             |
+| tBodyAccJerk-std()-X        | body acceleration jerk standard deviation () x time              |
+| tBodyAccJerk-std()-Y        | body acceleration jerk standard deviation () y time              |
+| tBodyAccJerk-std()-Z        | body acceleration jerk standard deviation () z time              |
+| tBodyGyro-mean()-X          | body gyroscope mean() x time                                     |
+| tBodyGyro-mean()-Y          | body gyroscope mean() y time                                     |
+| tBodyGyro-mean()-Z          | body gyroscope mean() z time                                     |
+| tBodyGyro-std()-X           | body gyroscope standard deviation () x time                      |
+| tBodyGyro-std()-Y           | body gyroscope standard deviation () y time                      |
+| tBodyGyro-std()-Z           | body gyroscope standard deviation () z time                      |
+| tBodyGyroJerk-mean()-X      | body gyroscope jerk mean() x time                                |
+| tBodyGyroJerk-mean()-Y      | body gyroscope jerk mean() y time                                |
+| tBodyGyroJerk-mean()-Z      | body gyroscope jerk mean() z time                                |
+| tBodyGyroJerk-std()-X       | body gyroscope jerk standard deviation () x time                 |
+| tBodyGyroJerk-std()-Y       | body gyroscope jerk standard deviation () y time                 |
+| tBodyGyroJerk-std()-Z       | body gyroscope jerk standard deviation () z time                 |
+| tBodyAccMag-mean()          | body acceleration magnitude mean() time                          |
+| tBodyAccMag-std()           | body acceleration magnitude standard deviation () time           |
+| tGravityAccMag-mean()       | gravity acceleration magnitude mean() time                       |
+| tGravityAccMag-std()        | gravity acceleration magnitude standard deviation () time        |
+| tBodyAccJerkMag-mean()      | body acceleration jerk magnitude mean() time                     |
+| tBodyAccJerkMag-std()       | body acceleration jerk magnitude standard deviation () time      |
+| tBodyGyroMag-mean()         | body gyroscope magnitude mean() time                             |
+| tBodyGyroMag-std()          | body gyroscope magnitude standard deviation () time              |
+| tBodyGyroJerkMag-mean()     | body gyroscope jerk magnitude mean() time                        |
+| tBodyGyroJerkMag-std()      | body gyroscope jerk magnitude standard deviation () time         |
+| fBodyAcc-mean()-X           | body acceleration mean() x frequency                             |
+| fBodyAcc-mean()-Y           | body acceleration mean() y frequency                             |
+| fBodyAcc-mean()-Z           | body acceleration mean() z frequency                             |
+| fBodyAcc-std()-X            | body acceleration standard deviation () x frequency              |
+| fBodyAcc-std()-Y            | body acceleration standard deviation () y frequency              |
+| fBodyAcc-std()-Z            | body acceleration standard deviation () z frequency              |
+| fBodyAccJerk-mean()-X       | body acceleration jerk mean() x frequency                        |
+| fBodyAccJerk-mean()-Y       | body acceleration jerk mean() y frequency                        |
+| fBodyAccJerk-mean()-Z       | body acceleration jerk mean() z frequency                        |
+| fBodyAccJerk-std()-X        | body acceleration jerk standard deviation () x frequency         |
+| fBodyAccJerk-std()-Y        | body acceleration jerk standard deviation () y frequency         |
+| fBodyAccJerk-std()-Z        | body acceleration jerk standard deviation () z frequency         |
+| fBodyGyro-mean()-X          | body gyroscope mean() x frequency                                |
+| fBodyGyro-mean()-Y          | body gyroscope mean() y frequency                                |
+| fBodyGyro-mean()-Z          | body gyroscope mean() z frequency                                |
+| fBodyGyro-std()-X           | body gyroscope standard deviation () x frequency                 |
+| fBodyGyro-std()-Y           | body gyroscope standard deviation () y frequency                 |
+| fBodyGyro-std()-Z           | body gyroscope standard deviation () z frequency                 |
+| fBodyAccMag-mean()          | body acceleration magnitude mean() frequency                     |
+| fBodyAccMag-std()           | body acceleration magnitude standard deviation () frequency      |
+| fBodyBodyAccJerkMag-mean()  | body acceleration jerk magnitude mean() frequency                |
+| fBodyBodyAccJerkMag-std()   | body acceleration jerk magnitude standard deviation () frequency |
+| fBodyBodyGyroMag-mean()     | body gyroscope magnitude mean() frequency                        |
+| fBodyBodyGyroMag-std()      | body gyroscope magnitude standard deviation () frequency         |
+| fBodyBodyGyroJerkMag-mean() | body gyroscope jerk magnitude mean() frequency                   |
+| fBodyBodyGyroJerkMag-std()  | body gyroscope jerk magnitude standard deviation () frequency    |
